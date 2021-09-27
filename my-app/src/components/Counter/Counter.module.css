@@ -1,0 +1,25 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  width: 200px;
+  height: 120px;
+}
+.number {
+  font-size: 20px;
+}
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+}
+.plus {
+  font-size: 100px;
+}
+.minus {
+  font-size: 100px;
+}
+.reset {
+  background-image: url(/src/components/Counter/refresh_btn.png);
+}

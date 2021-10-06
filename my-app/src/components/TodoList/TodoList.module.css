@@ -9,7 +9,7 @@
   justify-content: flex-start;
   flex-direction: column;
   background: url(background_todo.png);
-  width: 700px;
+  width: 80%;
   height: 700px;
   border-radius: 25px;
   overflow-y: scroll;

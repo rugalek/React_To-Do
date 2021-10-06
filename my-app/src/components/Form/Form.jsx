@@ -19,6 +19,8 @@ export function Form({ onClick }) {
     const todoshka = {
       text: text,
       checked: false,
+      selected: false,
+      done: false,
       id: getId(),
     };
 
@@ -37,9 +39,7 @@ export function Form({ onClick }) {
       style={{
         display: "flex",
         alignItems: "center",
-        position: "relative",
-        padding: "10px",
-        fontSize: "5px",
+        width: "90%",
       }}
     >
       <Input value={text} onChange={onChangeInput} onKeyDown={keySubmit} placeholder="Сделай же что-нибудь!" />

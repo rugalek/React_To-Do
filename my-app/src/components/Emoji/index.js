@@ -1,1 +1,0 @@
-export { EmojiList } from "./EmojiList";
